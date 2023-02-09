@@ -1,0 +1,23 @@
+:root {
+    --red: red;
+    --black: black;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    padding-left: center;
+}
+
+h1 {
+    color: var(--red);
+    font-size: 100px;
+}
+
+button {
+    color: var(--red);
+    font-size: 100px;
+    
+}
