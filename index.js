@@ -14,7 +14,7 @@ numero.innerHTML = 0
 function adicionar(){
     if(botaoMaior = numero.innerHTML){
         console.log(`${numero.innerHTML++}`)
-    }    
+    } 
 }
 
 function subtrair(){
@@ -22,6 +22,8 @@ function subtrair(){
         console.log(`${numero.innerHTML--}`);
     }
 }
+
+
 
 
 
