@@ -8,6 +8,14 @@
       {
         "image-alt": "off"
       }
+    ],
+    "highest-available-document-mode": "off",
+    "button-type": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
     ]
   }
 }

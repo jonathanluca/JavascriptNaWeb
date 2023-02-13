@@ -1,7 +1,20 @@
-:root {
-    --red: red;
+:root {                         /*adicionando variaveis*/
+    --red: red;              
     --black: black;
     --lightblue: lightblue;
+    --white: white;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 body {
@@ -9,10 +22,21 @@ body {
     padding: auto;
 }
 
+.bt-mn {
+    display: inline;
+    padding: auto;
+    width: 100px;
+}
+
+.bt-mr {
+    padding: auto;
+    width: 100px;     /*estou mudando a largura do meu botao*/
+}
 h2 {
     padding-left: center;
     width: auto;
-    font-size: x-large;
+    font-size: larger;
+    color: var(--black);
 }
 
 h1 {
@@ -24,5 +48,9 @@ h1 {
 button {
     color: var(--black);
     font-size: 100px;
-    border: dotted;
+    border: dotted ;
+}
+
+endereco {
+    text-align: center;
 }

@@ -1,6 +1,6 @@
 // achando os html da minha tela
 
-let botaoMenos = document.getElementById('botao-menor')    // 
+let botaoMenos = document.getElementById('botao-menor')    // buscando meus documento no html
 let botaoMaior = document.getElementById('botao-maior')
 let clicar = document.getElementById('clicar') 
 
